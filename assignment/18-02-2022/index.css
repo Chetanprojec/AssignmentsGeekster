@@ -1,0 +1,12 @@
+tr:nth-child(2n){
+    background-color: darkgray;
+}
+
+tr:nth-child(2n+1){
+    background-color: gray;
+}
+
+
+tr:nth-child(3n){
+    background-color:lightgray;
+}
