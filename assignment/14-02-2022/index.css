@@ -1,0 +1,42 @@
+.head{
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+.input{
+    margin-left: 200px;
+    
+
+    
+}
+.buttons{
+    margin-left: 400px;
+}
+.tube{
+    margin-top: 10px;
+    font-size: 25px;
+    font-style: bold;
+    margin-left: 3px;
+}
+input[type=search]{
+    padding-left: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 90px;
+    
+}
+.card1{
+    display: flex;
+    justify-content: space-around;
+}
+.Things{
+    text-decoration:none
+}
+
+
+
+
+
+
+
+
