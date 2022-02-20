@@ -1,0 +1,15 @@
+.head{
+    text-align: center;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+
+    
+}
+.space{
+    justify-content: space-around;
+}
+
