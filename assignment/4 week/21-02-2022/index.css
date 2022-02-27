@@ -1,0 +1,40 @@
+.main-div{
+    background-color: aqua;
+    text-align: center;
+    color: aliceblue;
+}
+li{
+    list-style: none;
+    text-decoration: underline;
+    color: black;
+}
+
+
+.main{
+    display: none;
+}
+.main-div:hover > .main{
+    display: initial;
+}
+.hide{
+    display: none;
+}
+.drop:hover> .hide{
+    display: initial;
+}
+.none{
+    display: none;
+}
+.hide:hover > .none{
+    display: initial;
+}
+
+
+
+
+
+
+
+
+
+
