@@ -1,0 +1,31 @@
+body{
+    margin: 0px;
+    background-color: #ea4c89;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    
+}
+.main-div{
+    display: flex;
+    justify-content: space-between;
+
+}
+.h1{
+    text-align: center;
+    margin-top: 50px;
+}
+.score{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 1000;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
