@@ -1,0 +1,24 @@
+.head{
+    text-align: center;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+
+    
+}
+.space{
+    justify-content: space-around;
+}
+
+button{
+    border-radius: 10px;
+    border: 1 px white;
+}
+.c1{
+    display: absolute;
+    top: 30px;
+
+}
