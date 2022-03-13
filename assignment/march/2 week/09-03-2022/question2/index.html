@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes app</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="side-nav">
+            <button onclick="clicked('home');" class="side-btn active-btn"> Home</button><br>
+            <button onclick="clicked('routine'); " class="side-btn">office</button><br>
+            <button onclick="clicked('favorite');" class="side-btn">workout</button><br>
+            <button onclick="clicked('buy'); " class="side-btn">Shopping</button><br>
+            <button onclick="clicked('work');" class="side-btn">money managment</button>
+        </div>
+        <div class="home-container" id="home">
+            <span class="left"> Home</span>
+            <button class="right close" id="close" onclick="close_div('home');"><i class="fa fa-close"
+                    aria-hidden="true"></i></button>
+            <br><br>
+            <input type="text" id="ip-home-text" placeholder="Enter here">
+            <button id="home-btn">ADD TASK</button>
+            <ul class="home-list" id="home-list-item">
+               
+            </ul>
+            <div class="home-bottom">
+                
+                <button class="close-bttn" onclick="close_div('home');"> Close Me</button>
+                <span class="right"> <i class="fa fa-plus-circle fa-2x">&nbsp;</i></span>
+            </div>
+        </div>
+        <div class="routine-container" id="routine">
+            <span class="left"> Office</span>
+            <button class="right close" id="close" onclick="close_div('routine');"><i class="fa fa-close"
+                    aria-hidden="true"></i></button>
+            <br><br>
+            <input type="text" id="ip-routine-text" placeholder="Enter Here">
+            <button id="routine-btn">ADD TASK</button>
+            <ul class="home-list" id="routine-list-item">
+               
+            </ul>
+            <div class="routine-bottom">
+               
+                <button class="close-bttn" onclick="close_div('routine');"> Close Me</button>
+                <span class="right"> <i class="fa fa-plus-circle fa-2x"></i>&nbsp;</span>
+            </div>
+        </div>
+        <div class="favorite-container" id="favorite">
+            <span class="left">workout</span>
+            <button class="right close" id="close" onclick="close_div('favorite');"><i class="fa fa-close"
+                    aria-hidden="true"></i></button>
+            <br><br>
+            <input type="text" id="ip-favorite-text" placeholder="Enter Here"> <button id="favorite-btn">ADD TASK</button>
+            <ul class="favorite-list" id="favorite-list-item">
+              
+            </ul>
+            <div class="favorite-bottom">
+                
+                <button class="close-bttn" onclick="close_div('favorite');"> Close Me</button>
+                <span class="right"> <i class="fa fa-plus-circle fa-2x"></i>&nbsp;</span>
+            </div>
+        </div>
+        <div class="buy-container" id="buy">
+            <span class="left">Shopping</span>
+            <button class="right close" id="close" onclick="close_div('buy');"><i class="fa fa-close"
+                    aria-hidden="true"></i></button>
+            <br><br>
+            <input type="text" id="ip-buy-text" placeholder="Enter Here"> <button id="buy-btn">ADD TASK</button>
+            <ul class="buy-list" id="buy-list-item">
+                
+            </ul>
+            <div class="buy-bottom">
+               
+                <button class="close-bttn" onclick="close_div('buy');"> Close Me</button>
+                <span class="right"> <i class="fa fa-plus-circle fa-2x"></i>&nbsp;</span>
+            </div>
+        </div>
+        <div class="work-container" id="work">
+            <span class="left">money</span>
+            <button class="right close" id="close" onclick="close_div('work');"><i class="fa fa-close"
+                    aria-hidden="true"></i></button>
+            <br><br>
+            <input type="text" id="ip-work-text" placeholder="Enter Here"> <button id="work-btn">ADD TASK</button>
+            <ul class="work-list" id="work-list-item">
+               
+            </ul>
+            <div class="work-bottom">
+                
+                <button class="close-bttn" onclick="close_div('work');"> Close Me</button>
+                <span class="right"> <i class="fa fa-plus-circle fa-2x"></i>&nbsp;</span>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="./index.js"></script>
+    
+</body>
+</html>
