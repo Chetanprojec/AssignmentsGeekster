@@ -1,0 +1,53 @@
+ .grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* row-gap: 40px;
+    box-shadow: 10px,10px,black; */
+    margin-top: 20px;
+} 
+video{
+    max-width: 500px;
+    border-radius: 20px;
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    margin: 10px;
+}
+
+body{
+    /* background-color: rgb(233, 233, 233); */
+    margin: 0px;
+    font-family: sans-serif;
+}
+.head{
+    text-align: center;
+    background-color:rgba(228, 179, 47, 0.822);
+    position: sticky;
+    top: 0px;
+   
+    padding:5px
+}
+.heading{
+    font-size:45px;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+input{
+    width: 400px;
+    height: 40px;
+    border-radius: 12px;
+    padding-left: 20px;
+    border-color: transparent;
+    font-size: 15px;
+    margin: 10px;
+}
+button{
+    height: 40px;
+    border-radius: 12px;
+    padding: 0px 10px;
+    border-color: transparent;
+    font-size: 15px;
+    margin: 10px;
+}
